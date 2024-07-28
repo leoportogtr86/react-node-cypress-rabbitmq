@@ -1,0 +1,95 @@
+/* App.css */
+
+/* Reset básico para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para o contêiner principal da aplicação */
+.App {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Estilos para o formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #a0a0a0;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Estilos adicionais para maior clareza e espaçamento */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* Feedback de formulário (ex: mensagens de erro) */
+.form-feedback {
+  color: #e74c3c;
+  margin-bottom: 10px;
+}

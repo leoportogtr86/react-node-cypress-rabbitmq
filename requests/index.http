@@ -1,0 +1,62 @@
+### Requisição para criar um teste básico
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Navegação",
+  "url": "cypress/e2e/2-advanced-examples/navigation.cy.js"
+}
+
+### Requisição para criar um teste de assertions
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Assertions",
+  "url": "cypress/e2e/2-advanced-examples/assertions.cy.js"
+}
+
+### Requisição para criar um teste de network requests
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Network Requests",
+  "url": "cypress/e2e/2-advanced-examples/network_requests.cy.js"
+}
+
+### Requisição para criar um teste de cookies
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Cookies",
+  "url": "cypress/e2e/2-advanced-examples/cookies.cy.js"
+}
+
+### Requisição para criar um teste de waiting
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Waiting",
+  "url": "cypress/e2e/2-advanced-examples/waiting.cy.js"
+}
+
+### Requisição para criar um teste de traversal
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Traversal",
+  "url": "cypress/e2e/2-advanced-examples/traversal.cy.js"
+}
+
+### Requisição para criar um teste de storage
+POST http://localhost:4000/tests
+Content-Type: application/json
+
+{
+  "name": "Teste de Storage",
+  "url": "cypress/e2e/2-advanced-examples/storage.cy.js"
+}
